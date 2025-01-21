@@ -31,6 +31,7 @@ namespace ConsoleApp6
         }
         public override void Start(float TAir)
         {
+            _curtemp = TAir;
             float a;
             float VH;
             float Vc;

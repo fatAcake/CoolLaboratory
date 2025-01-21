@@ -8,6 +8,7 @@ namespace ConsoleApp6.Abstact_classes
 {
     abstract internal class Engine
     {
+        public Action action;
         protected float _i;//момент инерции двигателя
         protected List<int> _m;//Кусочно-линейная зависимость
         protected List<int> _v;// Крутящий момент

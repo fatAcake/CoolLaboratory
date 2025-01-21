@@ -15,12 +15,11 @@ namespace ConsoleApp6
         {
             this.engine = engine;
         }
-        public Task Work()
+        public void Work()
         {
-            Task.Run(() =>
-            {
-                engine.Start(0.0f);
-            };
+            
+            engine.Start(1);
+
         }
     }
 }
